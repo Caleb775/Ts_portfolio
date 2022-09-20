@@ -132,7 +132,10 @@ nav { position: static; width: auto; padding: 20px 15px; background-color:#171B1
   nav > ul { padding: 0; margin-top:20px;}
   
   
-  nav ul li:hover:{ background:none;}
+  nav ul li:hover
+  { 
+    background:none;
+  }
   
   nav ul li a { 
   width: auto;

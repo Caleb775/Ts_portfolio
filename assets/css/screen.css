@@ -33,8 +33,15 @@ padding:0;
  }
  
 
- a.btn { font-size: 1.2em; text-decoration: none; color:#fff; border: 1px solid #fff; 
- padding:4px 15px; transition:background-color .5s;
+ a.btn { 
+  font-size: 1.2em; 
+  text-decoration: none; 
+  color:#fff; 
+  border: 1px solid #fff; 
+  padding: 4px 15px 10px 10px; 
+  margin-left: 20px;
+  height: 20px;
+  transition:background-color .5s;
 }
  a.btn:hover { background-color: rgba(0,0,0,.7);}
  
@@ -64,7 +71,7 @@ padding:0;
  }
  
  /* section-all */
- section {padding:0 30px;}
+ section {padding:0 25px;}
  section::after {content:''; display: block; clear: both;
  }
  
@@ -93,17 +100,25 @@ padding:0;
  
  /* section US */
  
- section.US { background-color:#07102b; padding-top: 30px; padding-bottom: 30px;color: #fff;
+ section.US { 
+  background-color:#1f93e6; 
+  padding-top: 25px; 
+  padding-bottom: 25px;
+  color: #fff;
  }
  
- section.US article{padding: 20px 2px 0px 515px;  
- background: url(../images/pearlharbor.jpg) no-repeat 0 5px;
+ section.US article {
+ padding: 20px 2px 0px 120px;  
+ background: url(../images/WC.jpg) no-repeat 50px 5px;
  background-position: auto;
- min-height: 220px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ min-height: 420px;
  }
 
  section.US p {
-  text-align: left;
+  text-align: center;
  }
  
  /* section - camp */
@@ -288,7 +303,7 @@ nav::after {
 	h1 { font-size: 2.42em;}
 	/*header*/
 	
-	header {height: 300px; background-image: url(../images/back 2.jpg);}
+	header {height: 300px; background-image: url(../images/back2.jpg);}
 	header div.hero {top: 120px; left: 48%;}
 	
 	/*section -US */
@@ -326,7 +341,7 @@ nav::after {
 
 
 /* Us*/
-  section .US article { padding: 20px; align: left;}
+  section .US article { padding: 20px; float: left;}
   
 
   
@@ -345,7 +360,7 @@ nav::after {
   a.btn { font-size: .9em;}
   
   /*header*/
-  header  {height:160px; background-image: url(../images/back 3.jpg); background-position: left top;}
+  header  {height:160px; background-image: url(../images/back3.jpg); background-position: left top;}
   header a.logo { 
 			width:100%; height:66px;
 			left: 0px; top:0px;
@@ -407,7 +422,9 @@ nav::after {
   margin-top:25px;}
   
   
-  nav ul li:hover:{ background:none;}
+  nav ul li:hover {
+   background:none;
+  }
   
   nav ul li a { 
   width: auto;
@@ -431,12 +448,12 @@ nav::after {
 	footer div.content a { margin: 0 20px 0 0;}
 	
 	
-  }
+  
   
   @media screen and (max-width: 425px) {
   /* header */
   header { height: 110px; 
-  background-image: url(../images/back 4.jpg); }
+  background-image: url(../images/back4.jpg); }
   
   header a.logo {
   height: 36px; 
@@ -469,17 +486,10 @@ nav::after {
   
   display:inline-block; 
   margin: 0 0 10px 0;
-  float:left;
+  align-items:left;
   clear:both;
   }
-  
-  
-  
-  
-  
-  
-  
+
+}
   }
-  
- 
-  
+    }
